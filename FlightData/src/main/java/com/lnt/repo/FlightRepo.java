@@ -14,11 +14,11 @@ public class FlightRepo {
 	
 	public FlightRepo()
 	{
-		/*
-		 * list.add(new Flight("Asia Travel", "AS-103")); list.add(new
-		 * Flight("Europe Travel", "EU-123")); list.add(new Flight("American Travel",
-		 * "AM-133"));
-		 */
+		
+		  list.add(new Flight("Asia Travel", "AS-103")); 
+		  list.add(new Flight("Europe Travel", "EU-123")); 
+		  list.add(new Flight("American Travel","AM-133"));
+		 
 	}
 	
 	public List<Flight> getAllFlightDetails()
